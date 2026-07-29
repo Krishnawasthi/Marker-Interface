@@ -21,8 +21,8 @@ object instanceof ClassName
 ```
 
 ---
-**<img width="886" height="366" alt="image" src="https://github.com/user-attachments/assets/e4c19b8d-c686-4f79-b164-d803519fea29" />
-**
+<img width="886" height="366" alt="image" src="https://github.com/user-attachments/assets/e4c19b8d-c686-4f79-b164-d803519fea29" />
+
 ## Example
 
 ```java
