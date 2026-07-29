@@ -1,7 +1,7 @@
 package com.marker.interface1;
 
 
-class Hospital implements Cloneable
+class Hospital implements Cloneable  //this class has given permission to clone itself.
 {
 	
     String pateintName;
@@ -30,6 +30,16 @@ public class Driver {
 		Hospital h1 = (Hospital) h.clone();//clonning the obejct
 		
 		System.out.println(h1.pateintName+ " " + h1.PId);
+		
+		
+		GoldUser goldUser = new GoldUser();
+		
+		if(goldUser instanceof User) {
+			System.out.println("gold type of user.....");
+		}
+		else {
+			System.out.println("no.....");
+		}
 
 	}
 
